@@ -33,20 +33,20 @@ Arknighs是一款塔防策略游戏，集合角色收集、养成、轻剧情于
 Arknights有很多控件都做得蛮有新意，但又融合得很好，有种“润物细无声”的意味。
 
 1. 搜索框，点击搜索框本身时，搜索框背景虚化，整个搜索相当于单独的浮层弹出，让视线更聚焦于搜索结果本身。
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/search.jpg')
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/search2.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/search.jpg)
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/search2.jpg)
 
 2. 干员筛选
 将常用筛选暴露在外头，而详细的筛直接选用了弹窗形式
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/filter.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/filter.jpg)
 
 3. 物品tips
 在弹出tip时，保留了原物品的icon和位置，icon会在原层级上再浮现一层，减少了“弹窗”的中断感，保证了操作的连贯性，这也是保留UI元素的体现之一；tip是可滚动的，减少所占屏幕的空间。
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/tooltip.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/tooltip.jpg)
 
 4. 列表
 明日方舟中，很多界面采用横向排布列表，左右滑动。基于全面屏的趋势，手机长度更长，横向的、占满屏幕长度的列表具有更优的滑动体验。
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/list.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/list.jpg)
 
 
 # 有点意思的界面 UI
@@ -55,7 +55,7 @@ Arknights有很多控件都做得蛮有新意，但又融合得很好，有种�
 
 ## 自然场景UI
 自然场景UI，即与场景相融合的界面元素，常见于一些主机游戏、3A游戏，做个系统的概括：
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/UI.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/UI.jpg)
 
 * Diegetic Interface：A diegetic interface is when a game's interface elements exist In-Universe; 
 the Player Character sees them, rather than just the player ("Diegetic" meaning "within the 
@@ -79,20 +79,20 @@ Representations）。亚呈现指的是可以存在于游戏世界中，但不�
 上述的两个概念是明日方舟界面应用的原则。举几个栗子。
 
 1. 首先，不得不说就是主界面，视觉上是伪3D的界面，UI可以跟着手机陀螺仪呈现轻微的晃动
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/main.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/main.jpg)
 附于界面上的弹窗，很巧妙，减少中断感，与底部界面有一些重复的信息。
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/main2.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/main2.jpg)
 
 2. 在宿舍装扮中，巧妙的设计了2D视角和3D视角的切换。当点击平面的物体时，保留2D视角，当选中立体的物品时，则会切换成带俯视的3D视角，方便用户进行修改、拖动、放置。同时家具上会显示长宽参数，如果与其他物品重叠时，会将重叠的部分红区提示。
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/home.gif')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/home.gif)
  
 3. 弹窗的设计充分考虑了用户的操作性。按钮铺满屏幕长度，增大按钮区域，双手持机点击很便利；没有采用传统的黑屏遮罩，而是将背景虚化以突出弹窗内容；确认和取消按钮用颜色做了强区分。
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/popup.jpg')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/popup.jpg)
 
 4. 弱切换/跳转
 在很多页面的跳转上都能做到保留上个界面的某些元素，以此弱化界面间的生硬切换。
 如干员立绘的适当位移，腾出空间给新界面的组件。这样做的好处有：使界面切换丝般顺滑的同时减少了玩家在新页面弹出的抗拒感。
-![image]('https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/offset.gif')
+![image](https://github.com/ZZYHHH/PictureHub/raw/master/Arknights/offset.gif)
 
 
 
