@@ -10,8 +10,7 @@ author: Xena
 
 color: rgb(0,156,224)
 
-cover: '
-![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/cover.jpg)'
+cover: ![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/cover.jpg)
 
 tags: game
 
@@ -73,7 +72,7 @@ narrative", such as diegetic music).
 Representations）。亚呈现指的是可以存在于游戏世界中，但不一定能引发玩家形象化空间感的呈现内容。2d的提示等。
 
 ## 类 Fluent Design
-<u>https://zhuanlan.zhihu.com/p/26925463</u>：
+ [Fluent Design](https://zhuanlan.zhihu.com/p/26925463)
 整个设计风格被拆解成以下五个方面：Light 光线，Depth 深度，Motion 动作，Material 材质，Scale 比例。通过 Specs 指引，在视觉上的本质表现是对「拟物」的简化，核心是「质感」。
 
 上述的两个概念是明日方舟界面应用的原则。举几个栗子。
@@ -136,4 +135,5 @@ Representations）。亚呈现指的是可以存在于游戏世界中，但不�
 其次整个界面风格科技、简约，符合世界观的设定，运用了极简的线条、富有光泽感的图标，透视的面板，都很加分。
 
 本文的分析还是比较肤浅，偶然看到一篇大佬的分享，贴上链接：
-<u>https://gameinstitute.qq.com/article/10027<u>
+[《明日方舟》UI/UX 分析](https://gameinstitute.qq.com/article/10027)
+
