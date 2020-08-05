@@ -8,10 +8,10 @@ date: 2020-08-04
 
 author: Xena
 
-color: rgb(255,210,32)
+color: rgb(0,156,224)
 
 cover: '
-![](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=false&word=%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F&step_word=&hs=0&pn=0&spn=0&di=0&pi=100026793308&rn=1&tn=baiduimagedetail&is=&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=&os=&simid=&adpicid=100026793308&lpn=0&ln=2790&fr=&fmq=1596594189508_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=brand&bdtype=-1&oriquery=&objurl=https%3A%2F%2Fgss0.baidu.com%2F7LsWdDW5_xN3otqbppnN2DJv%2Fforum%2Fpic%2Fitem%2F7aec54e736d12f2ee585941a58c2d562843568c3.jpg&fromurl=ipprf_z2C%24qAzdH3FAzdH3Fwh_z%26e3Biyrj626yri_z%26e3Bv54AzdH3Ftg1jx&gsm=1000001&rpstart=0&rpnum=0&islist=&querylist=&force=undefined)'
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/cover.jpg)'
 
 tags: game
 
@@ -94,8 +94,46 @@ Representations）。亚呈现指的是可以存在于游戏世界中，但不�
 如干员立绘的适当位移，腾出空间给新界面的组件。这样做的好处有：使界面切换丝般顺滑的同时减少了玩家在新页面弹出的抗拒感。
 ![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/offset.gif)
 
+5. 2D界面的层次感
+最前的移动更快，越远的移动越慢，给玩家一种带景深的镜头移动感和视差效果
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/layes.gif)
+再如左上角的返回按钮，层级高于界面，在页面的切换中始终保持不变。
+
+6. 帮助界面
+减少了文字堆积带来的阅读障碍，基本采用新手引导的帮助提示，用图形化的、可分页滑动的形式呈现
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/help.jpg)
+
+其他有意思的界面~
+
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/lot.gif "抽卡")
+
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/skin.gif "杂志感的换肤")
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/skin.jpg "杂志感的换肤")
+
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/relation.JPG "关系图")
+
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/signup.jpg "签到")
+
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/navigate.jpg "顶部总导航")
+
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Arknights/profile.gif "档案的tab")
 
 
+# 总结
 
+一些不足之处和改进：
+1. 没办法对干员进行一键升级，导致干员的升级操作流程较为繁琐
+2. 战斗能增加重新开始功能
+3. 仓库的位置和样式太弱了，以至于我玩到了中期才发现这个按钮
+4. 数字增减控件还是比较的保守，可以有，比如长按连续增加数字，招募干员增加最大最小时间值
+5. 可点击按钮需要一定的适应和学习成本，比如打勾的按钮，刚开始完全不知道是可点击的（不过我看在新版本已经改了 勾勾换成了文字“点击领取”）
+6. 右侧为按钮的常用区，tip的弹出会挡住按键
+7. 物品获取方式的跳转：完成任务后，建议原路返回，不然玩家会忘记目标和初衷
+8. 一些列表，领取后会跳回表头，还得再往下翻到当前进度
 
+一些亮点值得学习：
+首先就是UI元素的保留，很喜欢这种跳转的处理方式，游戏中很多处细节都有运用这一理念。
+其次整个界面风格科技、简约，符合世界观的设定，运用了极简的线条、富有光泽感的图标，透视的面板，都很加分。
 
+本文的分析还是比较肤浅，偶然看到一篇大佬的分享，贴上链接：
+<u>https://gameinstitute.qq.com/article/10027<u>
