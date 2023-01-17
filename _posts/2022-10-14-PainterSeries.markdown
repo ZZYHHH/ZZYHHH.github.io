@@ -50,5 +50,5 @@ Geometry Painter摆放工具可以在场景中方便、快速的摆放物体，�
 这是一个Mesh相关的绘制工具，可以在Unity场景中方便快速的绘制网格顶点色、法线、烘焙AO。不需要在dcc中绘制，节省反复切换查看的时间。
 
 # Mesh Debugger
-![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/PainterSeries/meshDebugger.png)
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/blob/master/PainterSeries/meshDebugger.png)
 这是一个Mesh的调试工具，可以在Unity场景中方便快速的查看Mesh信息，如顶点色、UV、法线等多种属性。
