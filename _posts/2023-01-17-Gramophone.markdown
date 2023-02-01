@@ -54,10 +54,18 @@ Shader的所需的贴图为Albedo贴图、Normal贴图、Mask贴图（R-Metallic
 
 
 # 贴图制作
-万事俱备，最后一part就是在Substance Painter里制作贴图。根据上述所需的贴图在sp中备好贴图输出模板。随后分析下材质，金属的有铜、铁等材质，非金属的有木、橡胶、塑料、油漆等材质，基于最底层、纹理层、结构层的思路制作。主要原则就是拉开金属与非金属材质的对比，丰富的材质纹理的层次感（增加磨损、脏迹等）。最后模型穿上衣服在Unity中的效果如图：
+万事俱备，最后一part就是在Substance Painter里制作贴图。根据上述所需的贴图在sp中备好贴图输出模板。随后分析下材质，金属的有铜、铁等材质，非金属的有木、橡胶、塑料、油漆等材质，基于最底层（基础颜色、粗糙度、金属度）、纹理层（叠加纹理、粗糙度变化）、结构层（叠加AO、曲度）的思路制作。主要原则就是拉开金属与非金属材质的对比，丰富的材质纹理的层次感（增加磨损、脏迹等）。最后模型穿上衣服在Unity中的效果如图：
 ![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Gramophone/GramophoneFinal.png)
 
+# 效果展示
 SP和Unity同步的效果图
 ![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Gramophone/UnitySpSync.png)
 
 细节图
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Gramophone/Detail1.png)
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Gramophone/Detail2.png)
+
+动图
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Gramophone/Gramophone1.gif)
+
+![](https://raw.githubusercontent.com/ZZYHHH/PictureHub/master/Gramophone/Gramophone2.gif)
